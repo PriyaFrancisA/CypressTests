@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-describe('register tests', () => {
+describe('purchase tests', () => {
   beforeEach(() => {
    cy.visit('https://www.demoblaze.com/')
   })
