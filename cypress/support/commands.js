@@ -1,7 +1,9 @@
-Cypress.Commands.add('addItemsToCart', () => {
-    cy.visit('https://www.demoblaze.com/prod.html?idp_=9')
+Cypress.Commands.add('addItemsToCart', (itemUrl1,itemUrl2) => {
+    //cy.visit('https://www.demoblaze.com/prod.html?idp_=9')
+    cy.visit(itemUrl1)
     cy.get('.col-sm-12 > .btn').click();
-    cy.visit('https://www.demoblaze.com/prod.html?idp_=14')
+    //cy.visit('https://www.demoblaze.com/prod.html?idp_=14')
+    cy.visit(itemUrl2)
     cy.get('.col-sm-12 > .btn').click();
     cy.get('#cartur').click();
 })
