@@ -2,15 +2,15 @@
 
 # Test 1 
 #User should able to see added items in shopping cart.
-Test will add the Sony Vaio i7 to the shopping cart.
-Test will add the ASUS Full HD to the shopping cart.
-Verify that the contents of the shopping cart is correct.
+1. Test will add the Sony Vaio i7 to the shopping cart.
+2. Test will add the ASUS Full HD to the shopping cart.
+3. Verify that the contents of the shopping cart is correct.
 
 # Test 2
 #User should able to purchase items from the website.
-Test will add the Sony Vaio i7 to the shopping cart.
-Test will add the ASUS Full HD to the shopping cart.
-Test will place the order and complete the transaction.
+1. Test will add the Sony Vaio i7 to the shopping cart.
+2. Test will add the ASUS Full HD to the shopping cart.
+3. Test will place the order and complete the transaction.
 
 
 # Added 2 commands
